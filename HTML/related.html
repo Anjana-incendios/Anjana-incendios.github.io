@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FundaPag</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap" rel="CSS/stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header bg3">
+        <nav>
+            <a href="../index.html"><img src="images/logoMe.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="info.html">INFO</a></li>
+                    <li><a href="related.html">RELATED</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Related</h1>
+    </section>
+
+
+    <!--Related-->
+    <section class="motivations">
+        <h1>Learn more</h1>
+        <p>Related videos</p>
+        <div class="row">
+            <div class="motivations-col">
+                <img src="images/Hands_Gallifet_Culture_Branding_Identite_Cover-1620x1080.jpg">
+                <div class="layer">
+                    <!--Title of the NFT picture-->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/YKRpRmnIN_g"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="motivations-col">
+                <img src="images/aquardin_ana-beltra_mural_Papel_2-1620x1080.jpg">
+                <div class="layer">
+                    <!--Title of the NFT picture-->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/4LLx7SMAOag"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="motivations-col">
+                <img src="images/Article_Image__1_-1620x1080.jpg" position="" width="100%">
+                <div class="layer">
+                    <!--Title of the Add-on picture-->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ztvtcKDrSwM"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Comment section-->
+    <section class="related-comment">
+        <div class="row">
+            <div class="related-left">
+                <img src="images/criptoarte-criptomonedas-1.jpg" alt="">
+                <h2></h2>
+                <p></p>
+                <br>
+                <p></p>
+                <div class="comment-box">
+                    <h1>Comments</h1>
+                    <h3>Leave a coment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="text" placeholder="Enter E-mail">
+                        <textarea rows="10" placeholder="Comment" required></textarea>
+                        <button type="submit" class="hero.btn orange-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="related-right">
+                <h3>Related links</h3>
+                <div>
+                    <span>DotCSV</span>
+                    <span><a href="https://www.youtube.com/channel/UCy5znSnfMsDwaLlROnZ7Qbg">Link</a></span>
+                </div>
+
+                <div>
+                    <span>Solanart</span>
+                    <span><a href="https://solanart.io/">Link</a></span>
+                </div>
+
+                <div>
+                    <span>Crypto Art</span>
+                    <span><a href="https://cryptoart.io/">Link</a></span>
+                </div>
+
+                <div>
+                    <span>Fluid Art</span>
+                    <span><a href="https://www.diythought.com/make-fluid-art-masterpiece/">Link</a></span>
+                </div>
+
+                <div>
+                    <span>dezeen</span>
+                    <span><a href="https://www.dezeen.com/tag/digital-fashion/">Link</a></span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!----Footer---->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>This website is mainly focused on the demostration of the usage of the NFT generation software related to
+            products.</p>
+
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fas fa-heart-o"> </i>by Spirow</p>
+    </section>
+
+    <!----JAVASCRIPT---->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
